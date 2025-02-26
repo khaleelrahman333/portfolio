@@ -1,0 +1,41 @@
+body {
+    padding-left:10%;
+    padding-right:10%;  
+    background-color: #80EF80;
+  }
+  
+  h1 {
+    font-size:5em;
+    font-family: Helvetica;
+  }
+  
+  p {
+    font size: 1.2em;
+    line-height: 1.3em;
+    padding-bottom: 20px; 
+    
+  }
+  
+  #nav-bar {
+  Display: flex;
+  Flex-direction: row;
+  
+  }
+  
+  .nav-button { 
+  Margin: auto
+  }
+  
+  
+  /*responsive design*/
+  #content {
+    width: 50%;
+      margin: auto;
+  }
+  
+  @media (orientation:portrait) {
+    #content {width:100%;
+    }
+  }
+  
+  
