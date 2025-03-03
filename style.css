@@ -7,6 +7,8 @@ body {
   h1 {
     font-size:5em;
     font-family: Helvetica;
+      /* I enlarged the font of the headline text so it was immediately visible to the viewer */
+
   }
   
   p {
@@ -19,7 +21,8 @@ body {
   #nav-bar {
   Display: flex;
   Flex-direction: row;
-  
+  /* I formatted the nav bar to be horizontol and not vertical */
+
   }
   
   .nav-button { 
@@ -35,9 +38,8 @@ body {
   
   @media (orientation:portrait) {
     #content {width:100%;
+     /* I ensured that the view of the site on mobile would be easy to read */
+
     }
   }
-  
-  pic {
-    width: 500px
-  }
+   
